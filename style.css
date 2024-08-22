@@ -3,3 +3,30 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: aqua;
+}
+
+.card__container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 100px;
+}
+
+.card__container .card{
+    width: 400px;
+    background-color: rgb(244, 242, 239);
+    overflow: hidden;
+    -webkit-box-shadow: 3px 3px 10px 3px #dddddd;
+    -moz-box-shadow: 3px 3px 10px 3px #dddddd;
+    box-shadow: 3px 3px 10px 3px #dddddd;
+    border-radius: 5px;
+}
+
+
+.card__details{
+    margin: 5%;
+}
