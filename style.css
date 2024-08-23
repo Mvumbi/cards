@@ -13,7 +13,7 @@ body{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 20px;
 }
 
 .card__container .card{
@@ -89,6 +89,11 @@ body{
     font-size: 15px;
 }
 
+.bouton__valide{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
 .list__bouton{
     list-style: none;
     display: flex;
@@ -114,7 +119,7 @@ body{
 }
 
 .bouton__link-primary{
-    border: 1px solid gray;
+    border: 1px solid rgb(55, 54, 54);
     background-color: rgb(45, 43, 43);
     color: white;
 }
